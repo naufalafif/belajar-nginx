@@ -1,0 +1,1 @@
+echo "192.168.33.99 belajarnginx.com" | sudo tee -a /etc/hosts

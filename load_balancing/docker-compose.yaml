@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  app1:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: app1
+    environment: 
+      - "APPID=app1"
+    ports: 
+      - 8081:9999
+  app2:
+    image: app1
+    environment: 
+      - "APPID=app2"
+    ports: 
+      - 8082:9999
+  app3:
+    image: app1
+    environment: 
+      - "APPID=app3"
+    ports: 
+      - 8083:9999

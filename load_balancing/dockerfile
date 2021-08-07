@@ -1,0 +1,4 @@
+FROM python:3-alpine
+COPY app.py .
+EXPOSE 9999
+ENTRYPOINT [ "python", "app.py"]

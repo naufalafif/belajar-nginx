@@ -64,3 +64,8 @@ events {}
 #### Example 
 1) Simple App HTTPS [open](examples/simple_app_https)
 2) Load Balancing [open](examples/load_balancing)
+
+
+#### References 
+1) https://www.youtube.com/watch?v=iNH6APQzIog (Best Practices for Caching)
+2) https://www.youtube.com/watch?v=hcw-NjOh8r0  (NginX Crash Course)

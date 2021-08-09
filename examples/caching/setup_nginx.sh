@@ -1,5 +1,6 @@
 sudo apt-get update -y
 sudo apt-get install nginx -y
+mkdir /home/vagrant/cache
 tar -xvf /home/vagrant/simple_app.tar
 sudo mkdir /var/www/belajarnginx
 sudo mv /home/vagrant/simple_app/* /var/www/belajarnginx

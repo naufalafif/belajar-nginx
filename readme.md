@@ -62,5 +62,5 @@ events {}
 ```
 
 #### Example 
-1) Simple App HTTPS [open](simple_app_https)
-2) Load Balancing [open](load_balancing)
+1) Simple App HTTPS [open](examples/simple_app_https)
+2) Load Balancing [open](examples/load_balancing)
